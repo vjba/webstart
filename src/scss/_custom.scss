@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font-raleway !important;
+    font-weight: 200;
+}
+
+body {
+    font-family: $font-opensans;
+    min-height: 100vh;
+}
