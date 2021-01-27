@@ -2,7 +2,7 @@
     "name": "webstart",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "A web developement toolchain template",
+    "description": "A simple toolchain to jump-start a static website project ",
     "keywords": [
         "parcel",
         "pug",
