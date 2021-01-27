@@ -3,8 +3,9 @@ head
     meta(charset="utf-8")
     meta(lang="en")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    meta(href="data:image/x-icon,0;" rel="icon" type="image/x-icon")
-    link(rel="stylesheet" href="../scss/styles.scss")
-    link(rel="shortcut icon" href="data:image/x-icon;base64,0" type="image/x-icon")
     meta(description="webstart")
     title Hi! from _head
+    link(rel="shortcut icon" href="data:image/x-icon;base64,0" type="image/x-icon")    
+    link(rel="preload" href="../scss/styles.scss" as="style" onload="this.onload=null;this.rel='stylesheet'")
+    noscript
+      link(rel="stylesheet" href="../scss/styles.scss")
