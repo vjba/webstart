@@ -14,7 +14,7 @@
     ],
     "scripts": {
         "build": "parcel build src/pug/index.pug --public-url /",
-        "dev": "parcel serve src/pug/index.pug --public-url /"
+        "dev": "parcel serve src/pug/index.pug"
     },
     "browserslist": "defaults",
     "repository": {
