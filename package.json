@@ -1,6 +1,6 @@
 {
     "name": "webstart",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "license": "MIT",
     "description": "A simple toolchain to jump-start a static website project",
     "keywords": [
