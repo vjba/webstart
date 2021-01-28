@@ -1,11 +1,13 @@
 head
-  block head
-    meta(charset="utf-8")
-    meta(lang="en")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
-    meta(description="webstart")
-    title Hi! from _head
-    link(rel="shortcut icon" href="data:image/x-icon;base64,0" type="image/x-icon")    
-    link(rel="preload" href="../scss/styles.scss" as="style" onload="this.onload=null;this.rel='stylesheet'")
-    noscript
-      link(rel="stylesheet" href="../scss/styles.scss")
+    block head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(description="A simple toolchain to jump-start a static website project")
+
+        link(rel="shortcut icon" href="data:image/x-icon;base64,0" type="image/x-icon")    
+        link(rel="preload" href="../scss/styles.scss" as="style" onload="this.onload=null;this.rel='stylesheet'")
+
+        noscript
+            link(rel="stylesheet" href="../scss/styles.scss")
+
+        title WEBSTART | vjba.dev
