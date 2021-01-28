@@ -1,17 +1,21 @@
-* {
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+body {
+    font-size: 1.5rem;
     text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: $font-raleway !important;
-    font-weight: 200;
-}
+.title {
+    color: $gray-700;
 
-body {
-    font-family: $font-opensans;
-    min-height: 100vh;
+    h1 {
+        font-family: 'Roboto-Thin', sans-serif;
+        text-transform: uppercase;
+        font-size: 5rem;
+        margin-top: 10rem;
+    }
+
+    .lead {
+        font-family: 'Roboto-Regular', sans-serif;
+    }
 }

@@ -2,7 +2,7 @@
     "name": "webstart",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "A simple toolchain to jump-start a static website project ",
+    "description": "A simple toolchain to jump-start a static website project",
     "keywords": [
         "parcel",
         "pug",
@@ -13,8 +13,8 @@
         "static site"
     ],
     "scripts": {
-        "build": "parcel build src/pug/index.pug --public-url /",
-        "dev": "parcel serve src/pug/index.pug"
+        "build": "rm -rf dist/ .parcel-cache && parcel build src/pug/index.pug --public-url=/",
+        "dev": "parcel watch src/pug/index.pug"
     },
     "browserslist": "defaults",
     "repository": {
@@ -32,7 +32,6 @@
         "sass": "^1.32.5"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.2",
         "bootstrap": "^4.6.0",
         "jquery": "^3.5.1",
         "popper.js": "^1.16.1"
