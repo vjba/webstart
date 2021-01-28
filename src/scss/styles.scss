@@ -1,3 +1,25 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
-@import './variables';
-@import './custom';
+
+body {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title {
+    color: $gray-700;
+
+    h1 {
+        font-weight: light;
+        text-transform: uppercase;
+        font-size: 3rem;
+        margin-top: 10rem;
+    }
+
+    .lead {
+        font-weight: normal;
+    }
+}
+
+code {
+    color: $gray-700 !important;
+}
