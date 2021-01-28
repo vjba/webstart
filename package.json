@@ -1,6 +1,6 @@
 {
     "name": "webstart",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "description": "A simple toolchain to jump-start a static website project",
     "keywords": [
@@ -9,7 +9,6 @@
         "scss",
         "sass",
         "bootstrap",
-        "fontawesome",
         "static site"
     ],
     "scripts": {
