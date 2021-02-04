@@ -1,8 +1,8 @@
 {
     "name": "webstart",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "license": "MIT",
-    "description": "A simple toolchain to jump-start a static website project",
+    "description": "A toolchain to jump-start your static site",
     "keywords": [
         "parcel",
         "pug",
@@ -28,11 +28,9 @@
     "devDependencies": {
         "parcel": "next",
         "pug": "^3.0.0",
-        "sass": "^1.32.5"
+        "sass": "^1.32.6"
     },
     "dependencies": {
-        "bootstrap": "^4.6.0",
-        "jquery": "^3.5.1",
-        "popper.js": "^1.16.1"
+        "bootstrap": "^5.0.0-beta1"
     }
 }
