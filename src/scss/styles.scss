@@ -1,25 +1,58 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+// https://coolors.co/355070-6d597a-b56576-e56b6f-eaac8b
+$y-in-mn-blue: rgba(53, 80, 112, 1);
+$chinese-violet: rgba(109, 89, 122, 1);
+$rose-dust: rgba(181, 101, 118, 1);
+$candy-pink: rgba(229, 107, 111, 1);
+$tumbleweed: rgba(234, 172, 139, 1);
 
 body {
-    font-size: 1.5rem;
-    text-align: center;
+    height: 100vh;
+    background-color: $y-in-mn-blue;
+    color: $tumbleweed;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.75rem;
 }
 
-.title {
-    color: $gray-700;
+a,
+a:hover {
+    text-underline-offset: 0.75rem;
+}
 
-    h1 {
-        font-weight: light;
-        text-transform: uppercase;
-        font-size: 3rem;
-        margin-top: 10rem;
-    }
+a {
+    color: $candy-pink;
+}
 
-    .lead {
-        font-weight: normal;
-    }
+a:hover {
+    color: $rose-dust;
+    font-weight: bold;
 }
 
 code {
-    color: $gray-700 !important;
+    background-color: $tumbleweed;
+    color: $y-in-mn-blue;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: $rose-dust;
+
+    .btn {
+        background-color: $y-in-mn-blue;
+        color: $tumbleweed;
+    }
+
+    .btn:hover {
+        background-color: $chinese-violet;
+        color: $rose-dust;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
 }
